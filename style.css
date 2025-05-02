@@ -1,0 +1,43 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Ensure the body takes up the full height of the viewport */
+}
+
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column; /* Use flexbox to structure the layout */
+    line-height: 1.6;
+    color: #333;
+    background-color: #ffffff;
+    min-height: 100vh;
+}
+
+main {
+    text-align: center;
+    flex: 1; /* Allow the main content to grow and take up available space */
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    padding: 1em;
+    background-color: #57068c;
+    color: white;
+}
+
+h1, h2, h3 {
+    margin: 0.5em 0;
+    text-align: center;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 1em;
+    font-size: 0.9em;
+    background-color: #333;
+    color: white;
+}
